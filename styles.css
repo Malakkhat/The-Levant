@@ -1,0 +1,106 @@
+
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #2D2D2D;
+    background-color: #F5E3C3;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('A_realistic_dark_night_sky_in_the_Sahara_Desert_f.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5E3C3;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.slogan {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #A5C6D7;
+}
+
+/* About Section */
+.about-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #4F6447;
+    margin-bottom: 1rem;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-section h2 {
+    color: #4F6447;
+    margin-bottom: 1rem;
+}
+
+.menu-section a {
+    color: #4F6447;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hours Section */
+.hours-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hours-section h2 {
+    color: #4F6447;
+    margin-bottom: 1rem;
+}
+
+.hours-section ul {
+    list-style-type: none;
+    color: #5B3D24;
+}
+
+/* Social Media Section */
+.social-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.social-section h2 {
+    color: #4F6447;
+    margin-bottom: 1rem;
+}
+
+.social-section a {
+    color: #4F6447;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5rem;
+}
